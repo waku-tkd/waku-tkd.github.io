@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <meta charset="utf-8" />
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <title>武田 湧| Home</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav>
+        <ul>
+          <button type="button" class="btn btn-default"><li><a href="index.html">Home</a></li></button>
+          <button type="button" class="btn btn-default"><li><a href="about.html" class="selected">About</a></li></button>
+        </ul>
+      </nav>
+      <div id="logo">
+        <img src="profile.jpg" alt="" />
+        <h1>武田 湧</h1>
+      </div>
+    </header>
+    <div class="container">
+      <section>
+        <h2>About</h2>
+        <h3>自己紹介</h3>
+        <p>武田 湧</p>
+        <p>東京都出身。</p>
+        <p>MySQL, PHP, javascriptなどを学習中。</p>
+        <p>私のポートフォリオを見て気になった方は、下記Facebookアカウントよりご連絡お願い致します。</p>
+        <h3>リンク</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/yu.takeda.332" target="_blank">Facebook</a></li>
+        </ul>
+      </section>
+      <footer>
+        <p>&copy; 2016 Yu Takeda.</p>
+      </footer>
+    </div>
   </body>
 </html>
